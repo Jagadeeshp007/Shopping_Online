@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.testng_runner.Part1_TestNG">
+        <methods>
+          <include name="registration"/>
+          <include name="browserClose"/>
+          <include name="configuration"/>
+          <include name="flush"/>
+          <include name="signUp"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- org.testng_runner.Part1_TestNG -->
+      <class name="org.testng_runner.Part2_TestNG">
+        <methods>
+          <include name="add_Card"/>
+          <include name="choose_dress"/>
+          <include name="login"/>
+          <include name="payment"/>
+          <include name="browserClose"/>
+          <include name="browserLaunch"/>
+          <include name="conform_order"/>
+          <include name="shipping_order"/>
+        </methods>
+      </class> <!-- org.testng_runner.Part2_TestNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
