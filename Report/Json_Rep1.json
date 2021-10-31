@@ -1,0 +1,354 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 429400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part1.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Home page",
+        "description": "",
+        "id": "online-shopping-demo-website-part1;home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 153100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part1.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34202322100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Launch The Shopping Application",
+            "match": {
+              "location": "Step_Def_Part1.user_Launch_The_Shopping_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5726319400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Click The Sign Up Button To Navigate Sign Up page",
+            "match": {
+              "location": "Step_Def_Part1.user_Click_The_Sign_Up_Button_To_Navigate_Sign_Up_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@RegrationTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 170600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part1.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Sign Up page",
+        "description": "",
+        "id": "online-shopping-demo-website-part1;sign-up-page",
+        "after": [
+          {
+            "result": {
+              "duration": 123800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part1.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 948092800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Enter The Email In Email Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_Email_In_Email_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 567623400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Click The Sign Up Button To Navigate Registration Page",
+            "match": {
+              "location": "Step_Def_Part1.user_Click_The_Sign_Up_Button_To_Navigate_Registration_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@sanityTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 172300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part1.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Registration Page",
+        "description": "",
+        "id": "online-shopping-demo-website-part1;registration-page",
+        "after": [
+          {
+            "result": {
+              "duration": 162100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part1.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4427415200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Select The Gender",
+            "match": {
+              "location": "Step_Def_Part1.user_Select_The_Gender()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 649413800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Enter The First Name In First Name Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_First_Name_In_First_Name_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482238900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Enter The Last Name In Last Name Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_Last_Name_In_Last_Name_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 506645700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user Enter The Password In Password Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_Password_In_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482964700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user Select The Day",
+            "match": {
+              "location": "Step_Def_Part1.user_Select_The_Day()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 584537400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user Select The Month",
+            "match": {
+              "location": "Step_Def_Part1.user_Select_The_Month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509957300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user Select the Year",
+            "match": {
+              "location": "Step_Def_Part1.user_Select_the_Year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 678057000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user Enter The Company In Comapny Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_Company_In_Comapny_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 759615000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user Enter The Address In Address Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_Address_In_Address_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 717023700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user Enter The Land Mark In Land Mark Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_Land_Mark_In_Land_Mark_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 525890900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user Enter The City In City Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_City_In_City_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 495133000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user Enter The Zipcode In Zipcode Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_Zipcode_In_Zipcode_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469121000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user Enter The Information In Information Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_Information_In_Information_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 635376000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user Enter The Mobile Number In Mobile Number Field",
+            "match": {
+              "location": "Step_Def_Part1.user_Enter_The_Mobile_Number_In_Mobile_Number_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8398428300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user Click The Submit Button To Registration Successfull",
+            "match": {
+              "location": "Step_Def_Part1.user_Click_The_Submit_Button_To_Registration_Successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Online Shopping Demo Website Part1",
+    "description": "",
+    "id": "online-shopping-demo-website-part1",
+    "keyword": "Feature",
+    "uri": "./src/test/java/org/feature_file/Shop_1.feature"
+  }
+]

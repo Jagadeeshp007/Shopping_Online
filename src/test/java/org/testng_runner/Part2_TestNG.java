@@ -22,20 +22,20 @@ public class Part2_TestNG extends Base_Class {
 	ExtentTest Test;
 	ExtentReports ExRep;
 	ExtentSparkReporter sparkRep;
-	
+
 	@BeforeTest
 	private void configuration() {
 		sparkRep = new ExtentSparkReporter(".//Report//TestNG_Extent2.html");
 		ExRep = new ExtentReports();
 		ExRep.attachReporter(sparkRep);
-		Test=ExRep.createTest("configuration");
+		Test = ExRep.createTest("configuration");
 	}
-	
+
 	@AfterTest
 	private void Flush1() {
 		ExRep.flush();
 	}
-	
+
 	@BeforeClass
 	private void browserLaunch() throws Throwable {
 		String browser = File_Read.getFile().getInstance1().getBrowser();
@@ -45,9 +45,11 @@ public class Part2_TestNG extends Base_Class {
 		String url = File_Read.getFile().getInstance1().getUrl();
 		getUrl(url);
 	}
-	
+
 	@Test(priority = 4)
 	private void dress_Select() throws Throwable {
+
+		Test = ExRep.createTest("Dress Select Page");
 
 		// women dress select
 		mouse(pom.getHome().getWomen(), "move");
@@ -65,6 +67,8 @@ public class Part2_TestNG extends Base_Class {
 
 	@Test(priority = 5)
 	private void choose_dress() throws Throwable {
+
+		Test = ExRep.createTest("Choose Dress");
 
 		// Quntity increase
 		inputClear(pom.getCart().getQuntity());
@@ -85,6 +89,8 @@ public class Part2_TestNG extends Base_Class {
 	@Test(priority = 6)
 	private void add_Card() throws Throwable {
 
+		Test = ExRep.createTest("Add-To-Card page");
+
 		// add to card
 		elementClick(pom.getCart().getAdd_card());
 		wait(30);
@@ -103,6 +109,8 @@ public class Part2_TestNG extends Base_Class {
 	@Test(priority = 7)
 	private void login() throws Throwable {
 
+		Test = ExRep.createTest("Login Page");
+
 		// login
 		String username = File_Read.getFile().getInstance2().getUsername();
 		inputPass(pom.getSign().getUsername(), username);
@@ -117,6 +125,8 @@ public class Part2_TestNG extends Base_Class {
 	@Test(priority = 8)
 	private void conform_order() throws Throwable {
 
+		Test = ExRep.createTest("Conform Order Page");
+
 		// conform order
 		String textarea = File_Read.getFile().getInstance2().getTextarea();
 		inputPass(pom.getAdd().getText(), textarea);
@@ -127,6 +137,9 @@ public class Part2_TestNG extends Base_Class {
 
 	@Test(priority = 9)
 	private void shipping_order() throws Throwable {
+
+		Test = ExRep.createTest("Shipping Order page");
+
 		// shipping
 		mouse(pom.getShip().getCheckbox(), "move");
 		mouse(pom.getShip().getCheckbox(), "click");
@@ -137,6 +150,8 @@ public class Part2_TestNG extends Base_Class {
 
 	@Test(priority = 10)
 	private void payment() throws Throwable {
+
+		Test = ExRep.createTest("Payment Page");
 
 		// payment proceed
 		mouse(pom.getPay().getPayment(), "move");

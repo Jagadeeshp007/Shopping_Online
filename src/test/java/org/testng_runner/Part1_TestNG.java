@@ -48,6 +48,8 @@ public class Part1_TestNG extends Base_Class {
 
 	@Test(priority = 1)
 	private void signUp() throws Throwable {
+
+		Test = ExRep.createTest("Sign Up page");
 		// sign up
 		elementClick(pom.getHome().getSign_btn());
 		wait(30);
@@ -64,6 +66,8 @@ public class Part1_TestNG extends Base_Class {
 
 	@Test(priority = 2)
 	private void registration() throws Throwable {
+		
+		Test = ExRep.createTest("Registration Page");
 		// Gender
 		elementClick(pom.getReg().getGender());
 

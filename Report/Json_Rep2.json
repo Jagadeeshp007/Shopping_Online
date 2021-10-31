@@ -1,0 +1,520 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 545774800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Home Page",
+        "description": "",
+        "id": "online-shopping-demo-website-part2;home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 349900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24692700700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Shopping Application",
+            "match": {
+              "location": "Step_Def_Part2.user_Launch_The_Shopping_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23441487400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click The Evening Dress To Navigate Dress Page",
+            "match": {
+              "location": "Step_Def_Part2.user_click_The_Evening_Dress_To_Navigate_Dress_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanityTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 190000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Dress Page",
+        "description": "",
+        "id": "online-shopping-demo-website-part2;dress-page",
+        "after": [
+          {
+            "result": {
+              "duration": 254400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8221843300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Select The Dress",
+            "match": {
+              "location": "Step_Def_Part2.user_Select_The_Dress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1568701500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Change The Dress Quntity",
+            "match": {
+              "location": "Step_Def_Part2.user_Change_The_Dress_Quntity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 856497200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Change The Dress Size",
+            "match": {
+              "location": "Step_Def_Part2.user_Change_The_Dress_Size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3585679500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Change The Dress Color",
+            "match": {
+              "location": "Step_Def_Part2.user_Change_The_Dress_Color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 586526200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user Click The AddCard Button To  Order Page",
+            "match": {
+              "location": "Step_Def_Part2.user_Click_The_AddCard_Button_To_Order_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@sanityTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 175200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Order Page",
+        "description": "",
+        "id": "online-shopping-demo-website-part2;order-page",
+        "after": [
+          {
+            "result": {
+              "duration": 234200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18010123400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Click The Proceed To Card Button To Navigate Login Page",
+            "match": {
+              "location": "Step_Def_Part2.user_Click_The_Proceed_To_Card_Button_To_Navigate_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@sanityTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 260800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login Page",
+        "description": "",
+        "id": "online-shopping-demo-website-part2;login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 225500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 790318300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user Enter The Username In Username Field",
+            "match": {
+              "location": "Step_Def_Part2.user_Enter_The_Username_In_Username_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 578734900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user Enter The Password In Password Field",
+            "match": {
+              "location": "Step_Def_Part2.user_Enter_The_Password_In_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14764637400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user Click The SignIn Button To Navigate Order Conform Page",
+            "match": {
+              "location": "Step_Def_Part2.user_Click_The_SignIn_Button_To_Navigate_Order_Conform_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 276500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Order Conform Page",
+        "description": "",
+        "id": "online-shopping-demo-website-part2;order-conform-page",
+        "after": [
+          {
+            "result": {
+              "duration": 164000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 596937300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user Enter The Text In Textare Field",
+            "match": {
+              "location": "Step_Def_Part2.user_Enter_The_Text_In_Textare_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8192584900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user Click The Proceed Button To Navigate Shipping Page",
+            "match": {
+              "location": "Step_Def_Part2.user_Click_The_Proceed_Button_To_Navigate_Shipping_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@sanityTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 195800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Shipping Page",
+        "description": "",
+        "id": "online-shopping-demo-website-part2;shipping-page",
+        "after": [
+          {
+            "result": {
+              "duration": 178600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 575891400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user Click The CheckBox",
+            "match": {
+              "location": "Step_Def_Part2.user_Click_The_CheckBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8182783100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user Click The Proceed Button To Navigate Payment Page",
+            "match": {
+              "location": "Step_Def_Part2.user_Click_The_Proceed_Button_To_Navigate_Payment_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@regressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 654800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Payment Page",
+        "description": "",
+        "id": "online-shopping-demo-website-part2;payment-page",
+        "after": [
+          {
+            "result": {
+              "duration": 681900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6521684100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user Click The payment Button To Navigate Conform Page",
+            "match": {
+              "location": "Step_Def_Part2.user_Click_The_payment_Button_To_Navigate_Conform_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 215400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.beforHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Confrom Page",
+        "description": "",
+        "id": "online-shopping-demo-website-part2;confrom-page",
+        "after": [
+          {
+            "result": {
+              "duration": 175600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Part2.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14169498000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user Click The Submit Button To Conform Order",
+            "match": {
+              "location": "Step_Def_Part2.user_Click_The_Submit_Button_To_Conform_Order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@regressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Online Shopping Demo Website part2",
+    "description": "",
+    "id": "online-shopping-demo-website-part2",
+    "keyword": "Feature",
+    "uri": "./src/test/java/org/feature_file/Shop_2.feature"
+  }
+]
